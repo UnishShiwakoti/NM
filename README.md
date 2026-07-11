@@ -38,3 +38,7 @@ Add your specific lab topics here. Common topics include:
 - NumPy (if used)
 - Matplotlib (for plotting results)
 - Pandas
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5138922 (Updated)
