@@ -34,5 +34,5 @@ for order in range(1, num):
 poly = simplify(nsimplify(poly, rational=True, tolerance=1e-10))
 f = lambdify(x, poly, "numpy")
 
-print("Newton interpolation polynomial:", poly)
+print("Newton interpolation polynomial:", poly) 
 print(f"Value of the polynomial at x = {xp}: {f(xp):.6f}")
