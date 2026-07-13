@@ -1,3 +1,4 @@
+<,
 import numpy as np
 import sympy as sp
 import matplotlib.pyplot as plt
@@ -10,10 +11,16 @@ Y = np.zeros((n, n))
 print("\nEnter values for x and y:")
 for i in range(n):
     X[i], Y[i, 0] = map(float, input(f"Enter x{i} and y{i} (space-separated): ").split())
+<<<<<<< HEAD
 
 # Generate divided difference table
 for i in range(1, n):
     k=i
+=======
+# Generate divided difference table
+for i in range(1, n):
+    k=i 
+>>>>>>> e870c014478c8b9388859639f60b1ac7cc650841
     for j in range(n - i):
         Y[j, i] = (Y[j + 1, i - 1] - Y[j, i - 1]) / (X[k] - X[j])
 
